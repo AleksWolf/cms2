@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper, .content, .menu, body, html {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header {
+    flex: 1 100%;
+    padding: 10px;
+    background: #FCFCFD;
+    height: 50px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+    background: #FCFCFD;
+    border: 1px solid #EEEFF2;
+}
+
+.block {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #EEEFF2;
+}
+
+.menu {
+    width: 250px;
+    background: #464E78;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+}
